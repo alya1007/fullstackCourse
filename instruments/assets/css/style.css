@@ -1,0 +1,94 @@
+body {
+	margin: 0px;
+	font-family: "Arvo", serif;
+}
+
+.container {
+	margin: 0px;
+	background-color: #6b60a1;
+	height: 100vh;
+}
+
+.title {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 40px;
+	font-size: 700%;
+	color: #fff;
+	-webkit-text-stroke: 6px #111;
+}
+
+.instruments {
+	width: 90%;
+	margin: 150px auto 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.myButton {
+    background-color: white;
+	border-radius: 10px;
+	border: 13px solid #8f89aa;
+	cursor: pointer;
+	color: #ffb3b3;
+	font-size: 5rem;
+    font-family: "Arvo", serif;
+	text-decoration: none;
+    width: 160px;
+    height: 160px;
+    padding-top: 30px;
+    -webkit-text-stroke: 2px #8f89aa;
+}
+/* .myButton:hover {
+    transition: linear .15s;
+	background-color: #a7a1c4;
+} */
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.w {
+	background-image: url("../img/tom1.png");
+}
+
+.a {
+	background-image: url("../img/tom2.png");
+}
+
+.s {
+	background-image: url("../img/tom3.png");
+}
+
+.d {
+	background-image: url("../img/tom4.png");
+}
+
+.j {
+	background-image: url("../img/snare.png");
+}
+
+.k {
+	background-image: url("../img/crash.png");
+}
+
+.l {
+	background-image: url("../img/kick.png");
+}
+
+.pressed {
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #3c3368;
+}
